@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+/* Header Styles */
+header {
+    background-color: transparent; /* Set background color to transparent */
+    padding: 10px 0; /* Padding for top and bottom */
+  }
+  
+  /* Container Styles */
+  .container {
+    display: flex;
+    justify-content: space-between; /* Align items with space in-between */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Padding for left and right */
+  }
+  
+  /* Logo Brand Styles */
+  .logo-brand a {
+    text-decoration: none; /* Remove underline from the logo */
+    color: #fff; /* White text color */
+    font-size: 24px; /* Font size for the logo */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display navigation items in a row */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Margin between navigation items */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last navigation item */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove underline from navigation links */
+    color: #fff; /* White text color */
+    font-size: 20px; /* Font size for navigation links - adjusted */
+    padding: 10px 15px; /* Padding for navigation links - adjusted */
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700; /* Change text color on hover */
+  }
+  
